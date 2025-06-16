@@ -1,0 +1,22 @@
+{
+  "name": "checkout-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.x.x",
+    "axios": "^1.x.x",
+    "cors": "^2.x.x",
+    "dotenv": "^16.5.0",
+    "express": "^4.x.x",
+    "multer": "^1.4.4",
+    "nodemon": "^3.1.10",
+    "openai": "^4.x.x",
+    "sharp": "^0.32.x",
+    "stripe": "^11.x.x",
+    "uuid": "^9.0.1"
+  }
+}
